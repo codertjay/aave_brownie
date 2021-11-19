@@ -47,7 +47,7 @@ def main():
     borrow_tx.wait(1)
     print("We borrow some DAI")
     get_borrow_data(lending_pool, account)
-    # repay_all(amount, lending_pool, account)
+    repay_all(amount, lending_pool, account)
 
 
 def repay_all(amount, lending_pool, account):
